@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+	    <meta keywords="html5, learn, teach" />
+		<link rel="stylesheet" type="text/css" href="styl.css" />
+		<script type="text/javascript" >
+		$('#slider').cycle({
+		fx:	'scrollhorz';
+		next:	'#next',
+		prev:	'#prev',
+		timeout: 3000;
+		});
+		</script>
+		<head> <link rel="shortcut icon" href="brand.png" type="img/png" /> </head>
+        <title>
+        Geely
+        </title>
+    </head>
+    <body>
+	
+
+	<div id="tnt" style="color:black; font-size:40px; font-weight:bold;" > <img src="brand.png" width=200px /> </div>
+	<hr>	
+	<div id="tnt1" >
+	<div id="tnt2" style="color:black; font-size:40px; font-weight:bold;" > 
+	<a href="file:///E:/html%20sites/IT%20project.html" target="_blank" style="color:black; font-size:40px; font-weight:bold;" > Emgrand7  <br>  </a> 
+	<div class="slider">
+    </div>
+	</div>
+	<div id="tnt3" style="color:black; font-size:40px; font-weight:bold;" > 
+	<a href="file:///E:/html%20sites/IT%20project2.html" target="_blank" style="color:black; font-size:40px; font-weight:bold;" > Imperial  <br>  </a> 
+	<script>
+	var i = 0; 
+var images = [];	
+var time = 3000;	
+images[0] = "imp.png";
+images[1] = "imp1.png";
+images[2] = "imp2.png";
+images[3] = "imp3.png";
+images[4] = "imp4.png";
+function changeImg(){
+	document.slide1.src = images[i];
+	if(i < images.length - 1){
+	  i++; 
+	} else { 
+		i = 0;
+	}
+	setTimeout("changeImg()", time);
+}
+window.onload=changeImg;
+	</script>
+	<img name="slide1" width="800" height="500" />
+	</div>
+	<div id="tnt4" style="color:black; font-size:40px; font-weight:bold;" > 
+	<a href="file:///E:/html%20sites/IT%20project3.html" target="_blank" style="color:black; font-size:40px; font-weight:bold;" > X7  <br>   
+	<img src="x.jpg" width=800px /></a>
+	</div>
+	<div id="tnt5" style="color:black; font-size:40px; font-weight:bold;" > 
+	<a href="file:///E:/html%20sites/IT%20project4.html" target="_blank" style="color:black; font-size:40px; font-weight:bold;" > Emgrand8  <br>  
+	<div>
+    <img src="em.jpg">
+    <img src="em1.jpg">
+    
+</div></a>
+		
+	</div>
+	</div>
+    </body>
+</html>

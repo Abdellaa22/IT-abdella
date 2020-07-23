@@ -1,0 +1,22 @@
+#int {
+	background-image: url('sea.jpg');
+	background-position: center;
+	background-attachment: center-right;
+	text-align: center;
+}
+#int1 {
+	padding: 23px;
+	background-color: #835675;
+}
+#int2 {
+	background-color: #810128;
+	text-align: center;
+}
+#int3 {
+	background-color: #810128;
+	text-align: center;
+}
+#int4 {
+	background-image: url('sea.jpg');
+	text-align: center;
+}
